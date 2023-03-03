@@ -1,0 +1,142 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.2_2 2021.06, Jun 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/filespace/h/hpandit/ECE755/Project/DNN
+T_opt
+!s110 1677624902
+V1=L8Iif_nKk]d[EWdz5F=1
+04 6 4 work tb_top fast 0
+=1-000ae431a4f1-63fe8646-729d2-30d100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work -L /filespace/h/hpandit/SAED32_lib +acc
+Z2 tCvgOpt 0
+n@_opt
+OE;O;2021.2_2;73
+vdnn_4to2
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1677624887
+!i10b 1
+!s100 EbdifN;6W>MQQ??c=2`nP2
+Im3dL`6giKf2aK[;lMe6YE3
+S1
+R1
+Z5 w1677615972
+8/filespace/h/hpandit/ECE755/Project/DNN/dnn_4to2.sv
+F/filespace/h/hpandit/ECE755/Project/DNN/dnn_4to2.sv
+!i122 6
+L0 1 35
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OE;L;2021.2_2;73
+r1
+!s85 0
+31
+Z8 !s108 1677624887.000000
+!s107 /filespace/h/hpandit/ECE755/Project/DNN/dnn_4to2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/filespace/h/hpandit/ECE755/Project/DNN/dnn_4to2.sv|
+!i113 0
+Z9 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vdnn_4to4
+R3
+R4
+!i10b 1
+!s100 oc17>ib>FkCSQKikKIV0Z1
+IgObfnFWc:NFJozdYiW_=P3
+S1
+R1
+R5
+8/filespace/h/hpandit/ECE755/Project/DNN/dnn_4to4.sv
+F/filespace/h/hpandit/ECE755/Project/DNN/dnn_4to4.sv
+!i122 7
+L0 1 36
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 /filespace/h/hpandit/ECE755/Project/DNN/dnn_4to4.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/filespace/h/hpandit/ECE755/Project/DNN/dnn_4to4.sv|
+!i113 0
+R9
+R2
+vreLU
+R3
+R4
+!i10b 1
+!s100 BZ_QIGOHzcg5aGEFU5G[H2
+IWEAJhzfZ5Q]je1SK[Q6=>3
+S1
+R1
+R5
+8/filespace/h/hpandit/ECE755/Project/DNN/ReLU.sv
+F/filespace/h/hpandit/ECE755/Project/DNN/ReLU.sv
+!i122 8
+L0 1 27
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 /filespace/h/hpandit/ECE755/Project/DNN/ReLU.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/filespace/h/hpandit/ECE755/Project/DNN/ReLU.sv|
+!i113 0
+R9
+R2
+nre@l@u
+vtb_top
+R3
+R4
+!i10b 1
+!s100 :lW3:S[Rfjo<e223[zNZ13
+I]b]zbYgfeTSa@<5L9ZE:02
+S1
+R1
+w1677624879
+8/filespace/h/hpandit/ECE755/Project/DNN/top_tb.sv
+F/filespace/h/hpandit/ECE755/Project/DNN/top_tb.sv
+!i122 11
+L0 2 99
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 /filespace/h/hpandit/ECE755/Project/DNN/top_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/filespace/h/hpandit/ECE755/Project/DNN/top_tb.sv|
+!i113 0
+R9
+R2
+vtop
+R4
+!i10b 1
+!s100 5j:Gk7MW87FQBT3Jn=IPR0
+IYSVDzzP^GQnJ0nzAQ2JAm1
+R1
+w1677624460
+8/filespace/h/hpandit/ECE755/Project/DNN/top.vg
+F/filespace/h/hpandit/ECE755/Project/DNN/top.vg
+!i122 10
+L0 8 10864
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 /filespace/h/hpandit/ECE755/Project/DNN/top.vg|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/h/hpandit/ECE755/Project/DNN/top.vg|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
